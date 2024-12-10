@@ -18,6 +18,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 
 def get_quality_name(quality_type):
     """获取清晰度名称"""
+
     quality_map = {
         '': '540P',
         '_1': '720P',
